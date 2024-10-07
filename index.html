@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuldeep Choksi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo">KC</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Kuldeep Choksi</h1>
+                <h2>Software Engineer & Computer Science Graduate</h2>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+        </section>
+        
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>Master's student in Computer Science at Northeastern University with a strong background in software development and machine learning. Experienced in full-stack development, data management, and AI applications.</p>
+            </div>
+        </section>
+        
+        <section id="education" class="education">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="education-item">
+                    <h3>Northeastern University, Boston, MA</h3>
+                    <p>Masters of Science in Computer Science</p>
+                    <p>Sept 2023 - Dec 2025 | GPA: 3.73</p>
+                </div>
+                <div class="education-item">
+                    <h3>University of Mumbai, Mumbai, India</h3>
+                    <p>Bachelors of Engineering in Computer Science</p>
+                    <p>Aug 2019 - Jun 2023 | GPA: 9.52 / 10</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                <div id="skills-container"></div>
+            </div>
+        </section>
+        
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2>Work Experience</h2>
+                <div class="experience-item">
+                    <h3>IpserLab: Software Engineering Intern</h3>
+                    <p>Mountain View, CA | Sept 2024 - Present</p>
+                    <ul>
+                        <li>Leading development of UncoverGem, a scalable web application for discovering hidden talents and opportunities.</li>
+                        <li>Developing full-stack solutions using ReactJS, JavaScript, and PostgreSQL.</li>
+                        <li>Focusing on data management, backend integration, and performance optimization.</li>
+                    </ul>
+                </div>
+                <!-- Add other work experiences similarly -->
+            </div>
+        </section>
+        
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                    <button class="filter-btn" data-filter="cv">Computer Vision</button>
+                </div>
+                <div class="project-grid">
+                    <div class="project-item" data-category="web">
+                        <h3>UncoverGem: Quiz Creation & Management System</h3>
+                        <p>Sept 2024 - Present</p>
+                        <ul>
+                            <li>Developed a robust quiz creation platform with multimedia integration and various question types.</li>
+                            <li>Implemented real-time analytics dashboard using MongoDB and Node.js.</li>
+                            <li>Optimized backend architecture for high scalability and low latency.</li>
+                        </ul>
+                    </div>
+                    <div class="project-item" data-category="cv ml">
+                        <h3>CAMERICA: Facial Detection Software</h3>
+                        <p>Jul 2022 - May 2023</p>
+                        <ul>
+                            <li>Developed real-time facial recognition system using OpenCV and neural networks.</li>
+                            <li>Optimized facial detection models in PyTorch for GPU use.</li>
+                            <li>Published research paper on face recognition databases.</li>
+                        </ul>
+                    </div>
+                    <!-- Add more project items as needed -->
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form id="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kuldeep Choksi. All rights reserved.</p>
+    </footer>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kuldeep Choksi. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+                <a href="https://github.com/your-username" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
