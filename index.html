@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kuldeep Choksi - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body>
     <header>
@@ -27,7 +28,8 @@
     </header>
 
     <main>
-        <section id="home" class="hero">
+        <!-- Home Section -->
+        <section id="home" class="hero" data-aos="fade-up">
             <div class="container">
                 <h1>Kuldeep Choksi</h1>
                 <h2>Software Engineer & Computer Science Graduate</h2>
@@ -36,144 +38,64 @@
             </div>
         </section>
 
-        <section id="about" class="about">
+        <!-- About Section -->
+        <section id="about" class="about" data-aos="fade-up">
             <div class="container">
                 <h2>About Me</h2>
-                <p>I am a Master's student in Computer Science at Northeastern University with a strong background in software development and machine learning. I am passionate about technology and committed to social causes, demonstrated through my volunteer work with NGOs providing free education to impoverished children. My experiences have honed my leadership, teamwork, and communication skills, making me adept at managing multiple responsibilities and solving complex problems.</p>
+                <p>I am a Master's student in Computer Science at Northeastern University with a strong background in software development and machine learning. I am passionate about technology and committed to social causes, demonstrated through my volunteer work with NGOs providing free education to impoverished children.</p>
             </div>
         </section>
 
-        <section id="education" class="education">
+        <!-- Education Section -->
+        <section id="education" class="education" data-aos="fade-right">
             <div class="container">
                 <h2>Education</h2>
                 <div class="education-item">
                     <h3>Northeastern University, Boston, MA</h3>
                     <p>Masters of Science in Computer Science (Expected Dec 2025)</p>
                     <p>GPA: 3.73</p>
-                    <p>Relevant Courses: Program Design and Paradigms, Database Management Systems, Algorithms, Introduction to Data Management and Processing, Web Development</p>
                 </div>
                 <div class="education-item">
                     <h3>University of Mumbai, Mumbai, India</h3>
                     <p>Bachelors of Engineering in Computer Science (Jun 2023)</p>
                     <p>GPA: 9.52 / 10</p>
-                    <p>Relevant Courses: Machine Learning, Deep Learning, Introduction to Intelligent Systems, Database Management Systems, Web Development, Cybersecurity and System Security, Project Management, Computer Vision</p>
                 </div>
             </div>
         </section>
 
-        <section id="skills" class="skills">
+        <!-- Skills Section -->
+        <section id="skills" class="skills" data-aos="fade-left">
             <div class="container">
                 <h2>Technical Skills</h2>
                 <ul>
-                    <li><strong>Languages:</strong> C/C++, Python, R, Java, MATLAB, HTML5/CSS, SQL, PowerShell, JavaScript, Node.js</li>
-                    <li><strong>Frameworks:</strong> NumPy, TensorFlow, Keras, OpenCV, Scikit-learn, Angular JS, jQuery, React, Pytorch</li>
-                    <li><strong>Databases:</strong> MySQL, MongoDB, PostgreSQL</li>
-                    <li><strong>Other Tools:</strong> RESTful APIs, SMTP, AWS Cloud, Test-driven development (TDD), HAAR cascades, SVM, MTCNN, Socket.IO, OpenCV, LaTeX, Agile Methodologies, Heroku, Performance Optimization, Technical Documentation, Project Management (PM)</li>
+                    <li><strong>Languages:</strong> C/C++, Python, Java, HTML, SQL</li>
+                    <li><strong>Frameworks:</strong> NumPy, TensorFlow, React</li>
                 </ul>
                 <h3>Soft Skills</h3>
                 <ul>
-                    <li>Excellent customer service and communication skills</li>
-                    <li>Strong teamwork and leadership abilities</li>
-                    <li>Efficient multitasking and time management</li>
+                    <li>Excellent communication skills</li>
                     <li>Adaptable and quick learner</li>
-                    <li>Attention to detail and commitment to quality</li>
-                    <li>Problem-solving and conflict resolution</li>
                 </ul>
             </div>
         </section>
 
-        <section id="experience" class="experience">
+        <!-- Experience Section -->
+        <section id="experience" class="experience" data-aos="fade-up">
             <div class="container">
                 <h2>Work Experience</h2>
                 <div class="experience-item">
                     <h3>Software Engineering Intern - IpserLab</h3>
                     <p>Mountain View, CA | Sept 2024 - Present</p>
                     <ul>
-                        <li>Leading the development of key features for UncoverGem, a scalable web application designed to enhance user experience in discovering hidden talents and opportunities.</li>
-                        <li>Developing full-stack software solutions using ReactJS and JavaScript for the frontend, while managing server-side data handling with PostgreSQL.</li>
-                        <li>Strengthening skills in data management, backend integration, and performance optimization to drive project scalability and efficiency.</li>
-                        <li>Collaborating with a cross-functional team in an agile environment to meet key project milestones.</li>
-                        <li>Demonstrated strong time management skills by meeting project milestones while balancing multiple responsibilities.</li>
-                        <li>Adapted quickly to new technologies and methodologies, showcasing flexibility and eagerness to learn.</li>
-                    </ul>
-                </div>
-                <div class="experience-item">
-                    <h3>Software Development Intern - Transferinfinite</h3>
-                    <p>Mumbai, India | Mar 2023 - Jul 2023</p>
-                    <ul>
-                        <li>Designed and implemented robust email APIs and messaging systems, increasing payment transfer efficiency by 20%, processing 500 additional transactions daily and reducing response time by 30% to 100 milliseconds.</li>
-                        <li>Acquired hands-on expertise with RESTful APIs, SMTP servers, database integration, and test-driven development, directly contributing to the enhanced performance of the payment systems.</li>
-                        <li>Developed and maintained detailed documentation for all API endpoints and system processes, ensuring seamless integration and efficient onboarding for new developers.</li>
-                        <li>Maintained clear communication with team members and stakeholders, ensuring project alignment and success.</li>
-                        <li>Demonstrated multitasking abilities and prioritized effectively to meet tight deadlines.</li>
-                    </ul>
-                </div>
-                <div class="experience-item">
-                    <h3>Software Development Intern - Prosoft Informatics</h3>
-                    <p>Mumbai, India | May 2020 - Dec 2020</p>
-                    <ul>
-                        <li>Led the development of high-quality ERP solutions using Java, J2EE, and MySQL, applying Agile methodologies, resulting in a 25% increase in client satisfaction scores and 80% of clients reporting improved operational efficiency.</li>
-                        <li>Implemented dynamic jQuery to streamline workflow, saving an average of 10 hours per week in manual data processing.</li>
-                        <li>Ensured data security and integrity through meticulous JPA handling, adhering to Agile practices for continuous improvement and maintaining high standards of data protection.</li>
-                        <li>Demonstrated strong interpersonal skills by effectively collaborating with diverse teams and clients.</li>
-                        <li>Showcased adaptability by quickly learning and implementing new technologies and methodologies.</li>
+                        <li>Leading development of key features for UncoverGem, enhancing user experience in discovering hidden talents.</li>
+                        <li>Developing full-stack software solutions using ReactJS and PostgreSQL.</li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <section id="projects" class="projects">
-            <div class="container">
-                <h2>Projects</h2>
-                <div class="project-item">
-                    <h3>UncoverGem: Quiz Creation & Management System</h3>
-                    <p>Sept 2024 - Present</p>
-                    <ul>
-                        <li>Spearheaded the development of a robust quiz creation platform, enabling users to create customizable quizzes with features like multimedia integration (images, videos) and various question types (multiple choice, true/false, short answer).</li>
-                        <li>Implemented a dynamic real-time analytics dashboard using MongoDB and Node.js to track key performance indicators such as user engagement, question difficulty, and completion rates, allowing creators to refine content for better user interaction.</li>
-                        <li>Designed and optimized the backend architecture to ensure high scalability and low latency, enabling seamless quiz experiences for thousands of concurrent users across different platforms, while ensuring data security and integrity.</li>
-                    </ul>
-                </div>
-                <div class="project-item">
-                    <h3>CAMERICA: Facial Detection Software</h3>
-                    <p>Jul 2022 - May 2023</p>
-                    <ul>
-                        <li>Developed a real-time facial recognition system using OpenCV and neural networks for criminal identification.</li>
-                        <li>Optimized facial detection models in PyTorch for GPU use; built a notification dashboard using React and Socket.IO.</li>
-                        <li>Mastered advanced facial recognition techniques and published a research paper in i-manager's Journal on Pattern Recognition Vol-9 No. 2, titled "REVIEW ON VARIOUS FACE RECOGNITION DATABASES".</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section id="volunteer" class="volunteer">
-            <div class="container">
-                <h2>Volunteer Work</h2>
-                <div class="volunteer-item">
-                    <h3>M.J. EduHub Foundation</h3>
-                    <p>Aug 2020 - Apr 2022</p>
-                    <ul>
-                        <li>Provided free education to impoverished children, effectively highlighting patience and adaptability.</li>
-                        <li>Collaborated with diverse teams to organize educational events, improving teamwork and leadership skills.</li>
-                        <li>Developed strong empathy and active listening skills while working with underprivileged communities.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section id="achievements" class="achievements">
-            <div class="container">
-                <h2>Achievements</h2>
-                <ul>
-                    <li>Consistently praised for dedication and work ethic in academic and professional roles.</li>
-                    <li>Published research paper in i-manager's Journal on Pattern Recognition.</li>
-                    <li>Won multiple intra-collegiate project competitions, including Multicon-W for the paper on facial recognition.</li>
-                    <li>Served as a class representative during undergraduate studies at the University of Mumbai, gaining experience in managing multiple people and problem-solving in a leadership role.</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="contact" class="contact">
+        <!-- Contact Section -->
+        <section id="contact" class="contact" data-aos="fade-up">
             <div class="container">
                 <h2>Contact Me</h2>
                 <form id="contact-form">
@@ -192,11 +114,17 @@
             <div class="social-links">
                 <a href="https://linkedin.com/in/KuldeepChoksi" target="_blank">LinkedIn</a>
                 <a href="https://github.com/KuldeepChoksi" target="_blank">GitHub</a>
-                <!-- Add other social media links as needed -->
             </div>
         </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="script.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            once: true,
+        });
+    </script>
 </body>
 </html>
