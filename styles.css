@@ -85,6 +85,14 @@ header {
   margin-bottom: 2rem;
 }
 
+.hero p {
+  margin-bottom: 2rem;
+}
+
+.hero .btn-container {
+  margin-top: 1.5rem;
+}
+
 .hero .btn {
   background-color: var(--btn-color);
   color: #fff;
@@ -115,22 +123,6 @@ h2 {
   margin: auto;
   text-align: center;
   line-height: 1.8;
-}
-
-/* Skills */
-.skills ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  list-style: none;
-}
-
-.skills ul li {
-  background-color: var(--accent-color);
-  color: #fff;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
 }
 
 /* Footer */
