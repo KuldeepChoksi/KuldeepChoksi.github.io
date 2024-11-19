@@ -3,136 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kuldeep Choksi - Software Engineer Portfolio showcasing skills, projects, experience, and contact information.">
-    <title>Kuldeep Choksi - Portfolio</title>
+    <meta name="description" content="Kuldeep Choksi - Software Engineer Portfolio showcasing projects, skills, and experience.">
+    <title>Kuldeep Choksi | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body>
-    <header>
-        <nav id="navbar">
-            <div class="container">
-                <h1 class="logo">Kuldeep Choksi</h1>
-                <ul>
-                    <li><a href="#home">Home</a></li>
+    <header id="navbar">
+        <div class="container">
+            <h1 class="logo" data-aos="fade-down">Kuldeep Choksi</h1>
+            <nav>
+                <ul class="nav-links">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#volunteer">Volunteer</a></li>
-                    <li><a href="#achievements">Achievements</a></li>
-                    <li><a href="#contact">Contact</a></li>
                 </ul>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section id="home" class="hero" data-aos="fade-up">
-            <div class="container">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container" data-aos="fade-up">
                 <h1>Kuldeep Choksi</h1>
                 <h2>Software Engineer & Computer Science Graduate</h2>
-                <p>Dedicated and hardworking with strong interpersonal skills, technical expertise, and a commitment to creating impactful solutions.</p>
-                <a href="#contact" class="btn">Get in Touch</a>
+                <p class="description">
+                    Dedicated and hardworking graduate student with strong interpersonal skills, technical expertise, 
+                    and a commitment to creating impactful solutions.
+                </p>
+                <a href="#about" class="btn">Learn More</a>
             </div>
         </section>
 
-        <section id="about" class="about" data-aos="fade-up">
+        <!-- About Section -->
+        <section id="about" class="about">
             <div class="container">
-                <h2>About Me</h2>
-                <p>I am a Master's student at Northeastern University with a focus on software development and machine learning. My background spans full-stack development, data engineering, and AI-driven solutions. I am passionate about technology and creating positive social impact through my work.</p>
+                <h2 data-aos="fade-right">About Me</h2>
+                <p data-aos="fade-left">
+                    I am a Master's student at Northeastern University, specializing in full-stack development, machine learning, 
+                    and scalable software systems. My journey includes building innovative solutions, optimizing processes, 
+                    and contributing to impactful projects across industries.
+                </p>
+                <div class="social-links" data-aos="fade-up">
+                    <a href="mailto:choksi.ku@northeastern.edu"><i class="fas fa-envelope"></i> Email</a>
+                    <a href="https://linkedin.com/in/kuldeepchoksi" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
             </div>
         </section>
 
-        <section id="education" class="education" data-aos="fade-right">
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
             <div class="container">
-                <h2>Education</h2>
+                <h2 data-aos="fade-right">Skills</h2>
+                <div class="skills-grid" data-aos="zoom-in">
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">React</div>
+                    <div class="skill-item">PostgreSQL</div>
+                    <div class="skill-item">Node.js</div>
+                    <div class="skill-item">TensorFlow</div>
+                    <div class="skill-item">Docker</div>
+                    <div class="skill-item">AWS</div>
+                    <div class="skill-item">MongoDB</div>
+                    <div class="skill-item">MySQL</div>
+                    <div class="skill-item">Java</div>
+                    <div class="skill-item">AngularJS</div>
+                    <div class="skill-item">Keras</div>
+                    <div class="skill-item">TypeScript</div>
+                    <div class="skill-item">Machine Learning</div>
+                    <div class="skill-item">Hadoop</div>
+                    <div class="skill-item">LaTeX</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2 data-aos="fade-right">Experience</h2>
                 <div class="timeline">
-                    <div class="timeline-item">
-                        <h3>Northeastern University, Boston, MA</h3>
-                        <p>Masters of Science in Computer Science (Sept 2023 - Dec 2025)</p>
-                        <p>GPA: 3.73</p>
-                        <p><strong>Relevant Courses:</strong> Scalable Distributed Systems, Web Development, Algorithms.</p>
+                    <div class="timeline-item" data-aos="fade-up">
+                        <h3>Software Engineering Intern</h3>
+                        <p>IpserLab, Mountain View, CA (Sept 2024 - Present)</p>
+                        <ul>
+                            <li>Developed scalable features for UncoverGem, improving user engagement by 60%.</li>
+                            <li>Optimized PostgreSQL databases, reducing query response times by 75%.</li>
+                            <li>Designed data pipelines for efficient data ingestion and processing.</li>
+                        </ul>
                     </div>
-                    <div class="timeline-item">
-                        <h3>University of Mumbai, Mumbai, India</h3>
-                        <p>Bachelors of Engineering in Computer Science (Aug 2019 - Jun 2023)</p>
-                        <p>GPA: 9.52 / 10</p>
-                        <p><strong>Relevant Courses:</strong> Machine Learning, Cybersecurity, Data Mining Techniques.</p>
+                    <div class="timeline-item" data-aos="fade-up">
+                        <h3>Software Development Intern</h3>
+                        <p>Transferinfinite, Mumbai, India (Mar 2023 - Jul 2023)</p>
+                        <ul>
+                            <li>Analyzed transaction data to increase payment efficiency by 20%.</li>
+                            <li>Built APIs and automated data reporting systems processing 500+ daily transactions.</li>
+                            <li>Reduced transaction response times by 30% with streamlined systems.</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up">
+                        <h3>Software Development Intern</h3>
+                        <p>Prosoft Informatics, Mumbai, India (May 2020 - Dec 2020)</p>
+                        <ul>
+                            <li>Developed ERP solutions, improving client satisfaction scores by 25%.</li>
+                            <li>Automated workflows using SQL and jQuery, saving 10+ hours weekly.</li>
+                            <li>Ensured data security with robust protocols and compliance standards.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="skills" class="skills" data-aos="fade-left">
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
             <div class="container">
-                <h2>Skills</h2>
-                <ul>
-                    <li><strong>Languages:</strong> Python, JavaScript, SQL, R, Java, C/C++</li>
-                    <li><strong>Frameworks:</strong> React, AngularJS, TensorFlow, PyTorch, Keras</li>
-                    <li><strong>Databases:</strong> PostgreSQL, MongoDB, MySQL, Snowflake</li>
-                    <li><strong>Cloud & Tools:</strong> AWS, Docker, JIRA, RESTful APIs</li>
-                    <li><strong>Soft Skills:</strong> Teamwork, Leadership, Adaptability</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="experience" class="experience" data-aos="fade-up">
-            <div class="container">
-                <h2>Work Experience</h2>
-                <div class="experience-item">
-                    <h3>Software Engineering Intern - IpserLab</h3>
-                    <p>Mountain View, CA (Sept 2024 - Present)</p>
-                    <ul>
-                        <li>Developed data pipelines for UncoverGem, optimizing talent discovery with a projected 60% increase in engagement.</li>
-                        <li>Enhanced scalability and query efficiency for PostgreSQL databases.</li>
-                    </ul>
-                </div>
-                <div class="experience-item">
-                    <h3>Software Development Intern - Transferinfinite</h3>
-                    <p>Mumbai, India (Mar 2023 - Jul 2023)</p>
-                    <ul>
-                        <li>Designed APIs and reporting systems, improving data flow and reducing transaction response times by 30%.</li>
-                    </ul>
-                </div>
-                <div class="experience-item">
-                    <h3>Software Development Intern - Prosoft Informatics</h3>
-                    <p>Mumbai, India (May 2020 - Dec 2020)</p>
-                    <ul>
-                        <li>Implemented ERP solutions, improving client satisfaction and operational efficiency.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects" class="projects" data-aos="fade-up">
-            <div class="container">
-                <h2>Projects</h2>
-                <div class="project-item">
+                <h2 data-aos="fade-right">Projects</h2>
+                <div class="project-item" data-aos="zoom-in">
                     <h3>UncoverGem</h3>
-                    <p>Quiz Creation and Management System with real-time analytics dashboard, supporting 5,000+ active users.</p>
+                    <p>
+                        A quiz creation and management platform supporting 5,000+ active users. Includes features like 
+                        multimedia integration and real-time analytics dashboards powered by MongoDB and Node.js.
+                    </p>
                 </div>
-                <div class="project-item">
+                <div class="project-item" data-aos="zoom-in">
                     <h3>CAMERICA</h3>
-                    <p>Facial recognition software using OpenCV and YOLO, published in a peer-reviewed journal.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="contact" data-aos="fade-up">
-            <div class="container">
-                <h2>Contact Me</h2>
-                <form id="contact-form">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="message" placeholder="Your Message" required></textarea>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
-                <div class="social-links">
-                    <a href="https://linkedin.com/in/kuldeepchoksi" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/KuldeepChoksi" target="_blank"><i class="fab fa-github"></i></a>
+                    <p>
+                        A facial detection and recognition software for criminal identification using OpenCV and YOLO. 
+                        Published research on recognition techniques and optimized models for GPU processing.
+                    </p>
                 </div>
             </div>
         </section>
@@ -140,14 +142,17 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Kuldeep Choksi. All rights reserved.</p>
+            <p>&copy; 2024 Kuldeep Choksi. All Rights Reserved.</p>
         </div>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="script.js"></script>
     <script>
-        AOS.init({ duration: 1200, once: true });
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
     </script>
 </body>
 </html>
