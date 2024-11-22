@@ -142,3 +142,7 @@ footer {
 .social-links a:hover {
   color: var(--btn-color);
 }
+
+#navbar ul li a[href="camerica.html"]:hover {
+  color: var(--accent-color);
+}
