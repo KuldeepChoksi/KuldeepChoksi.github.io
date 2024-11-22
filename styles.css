@@ -146,3 +146,13 @@ footer {
 #navbar ul li a[href="camerica.html"]:hover {
   color: var(--accent-color);
 }
+a {
+  color: #ffd700; /* Yellowish Gold */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+a:hover {
+  color: #ffa726; /* Slightly lighter gold for hover */
+  text-decoration: underline; /* Optional: underline on hover */
+}
