@@ -5,6 +5,8 @@
   --btn-color: #ffa726;
   --text-color: #eaeaea;
   --bg-color: #1c1c28;
+  --link-color: #ffd700;
+  --link-hover-color: #ffa726;
 }
 
 * {
@@ -20,13 +22,23 @@ body {
   background-color: var(--bg-color);
 }
 
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* Header and Navbar */
 header {
   background-color: var(--primary-color);
   padding: 1rem 0;
@@ -57,17 +69,16 @@ header {
 }
 
 #navbar ul li a {
-  color: var(--text-color);
+  color: var(--link-color);
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
 #navbar ul li a:hover {
-  color: var(--btn-color);
+  color: var(--link-hover-color);
 }
 
-/* Hero Section */
 .hero {
   background-color: var(--secondary-color);
   color: var(--text-color);
@@ -106,7 +117,6 @@ header {
   background-color: #ff9e6d;
 }
 
-/* Section Styles */
 section {
   padding: 4rem 0;
 }
@@ -125,7 +135,6 @@ h2 {
   line-height: 1.8;
 }
 
-/* Footer */
 footer {
   background-color: var(--primary-color);
   color: var(--text-color);
@@ -134,25 +143,15 @@ footer {
 }
 
 .social-links a {
-  color: var(--text-color);
+  color: var(--link-color);
   margin: 0 10px;
   text-decoration: none;
 }
 
 .social-links a:hover {
-  color: var(--btn-color);
+  color: var(--link-hover-color);
 }
 
 #navbar ul li a[href="camerica.html"]:hover {
   color: var(--accent-color);
-}
-a {
-  color: #ffd700; /* Yellowish Gold */
-  text-decoration: none; /* Remove underline */
-  transition: color 0.3s ease; /* Smooth hover effect */
-}
-
-a:hover {
-  color: #ffa726; /* Slightly lighter gold for hover */
-  text-decoration: underline; /* Optional: underline on hover */
 }
